@@ -62,12 +62,6 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/frainzy1477/luci-app-clash.git
-      
-      - name: openclash
-        run: |
-          cd package
-          mkdir openwrt-packages
-          cd openwrt-packages
           git clone https://github.com/vernesong/OpenClash.git
       
       - name: Update feeds
